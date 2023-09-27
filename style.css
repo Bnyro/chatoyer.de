@@ -29,6 +29,10 @@ html {
   color: var(--text);
 }
 
+main {
+  padding-top: 2rem;
+}
+
 a {
   text-decoration: none;
   color: var(--text);
