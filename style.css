@@ -8,8 +8,6 @@
   --base: #222;
   --text: #ccc;
   --accent: #f6891f;
-  --img-filter: invert(67%) sepia(28%) saturate(4980%) hue-rotate(347deg)
-    brightness(99%) contrast(95%);
 }
 
 html {
@@ -78,13 +76,8 @@ section {
 }
 
 .service-link img {
-  filter: var(--img-filter);
   width: auto;
   height: 8rem;
-}
-
-.no-invert img {
-  filter: none;
 }
 
 .service-link figcaption {
