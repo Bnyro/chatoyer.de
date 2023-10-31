@@ -8,6 +8,8 @@
   --base: #222428;
   --text: #ccc;
   --accent: orange;
+
+  --transition-duration: 500ms;
 }
 
 @media (prefers-color-scheme: light) {
@@ -79,7 +81,7 @@ section {
 
 .service-link:hover {
   scale: 1.15;
-  transition: scale 0.5s ease-in-out;
+  transition: scale var(--transition-duration) ease-in-out;
 }
 
 .service-link img {
@@ -89,7 +91,7 @@ section {
 
 .service-link figcaption {
   opacity: 0;
-  transition: 0.5 opacity ease-in-out;
+  transition: var(--transition-duration) opacity ease-in-out;
 }
 
 .service-link:hover figcaption {
