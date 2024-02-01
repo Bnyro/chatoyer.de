@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    {% if section.extra.section_path -%}
+        {% set section = get_section(path=section.extra.section_path) %}
+    {% endif -%}
+
+    {{ macros_page_header::page_header(title=section.title) }}
+
+    <main>
+        {% if section.content -%}
+            <div id="page-content">{{ section.content | safe }}</div>
+        {% endif %}
+    </main>
+{% endblock main_content %}
