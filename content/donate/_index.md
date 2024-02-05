@@ -11,4 +11,4 @@ Liberapay is the preferred way because it charges less fees than GitHub sponsors
 You can donate via Liberapay [here](https://liberapay.com/Bnyro).
 
 ## Donations via GitHub Sponsors
-You can donate via GitHub Sponsors [here](https://github.com/Bnyro/sponsors/).
+You can donate via GitHub Sponsors [here](https://github.com/sponsors/Bnyro/).
