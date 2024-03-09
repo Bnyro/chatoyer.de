@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://chatoyer.de/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://chatoyer.de/</loc>
+    </url>
+    <url>
+        <loc>https://chatoyer.de/about/</loc>
+    </url>
+    <url>
+        <loc>https://chatoyer.de/donate/</loc>
+    </url>
+    <url>
+        <loc>https://chatoyer.de/privacy/</loc>
+    </url>
+</urlset>
